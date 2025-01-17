@@ -1,0 +1,110 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+#header-container{
+width: 100%;
+align-items: center;
+}
+.header-list{
+  align-items: center;
+  width: 95%;
+  background-color: blue;
+  height: 36px;
+  margin-left: 30px;
+  border-radius: 20px;
+}
+.header-link {
+  font-size: 12px;
+  color: #ffffff; /* Matn rangi */
+  background-color: transparent; /* Asosiy holatda fon rangi */
+  text-decoration: none; /* Ostiga chizilgan chiziqni olib tashlash */
+  padding: 7px 16px; /* Ichki bo'shliq */
+  border-radius: 0px; /* Burchaklarni yumaloqlash */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Tekis o'tish */
+}
+
+.header-link:hover {
+  background-color: #00b521; /* Hover holatida fon rangi (masalan, ko'k rang) */
+  color: #fff; /* Matn rangi o'zgaradi (oq rang) */
+}
+
+.header-navbar-list{
+  margin-left: 600px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+.header-listes{
+  margin-top: 8px;
+}
+.section-title{
+  font-size: 20px;
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: bold; 
+  color: #333; 
+  margin: 0 !important;
+ 
+}
+.section{
+  width: 95% !important;
+  display: flex;
+  justify-content: space-between;
+}
+.section-list{
+  width: 50%;
+ margin-top: 60px;
+ margin-left: 30px;
+
+}
+.section-listes{
+  margin-top: 60px;
+  width: 45%;
+}
+.section-link{
+  display: block;
+  font-size: 20px;
+  margin: 0, 0, 40px, 40px;
+}
+.section-listes-text {
+  font-size: 16px; 
+  font-weight: bold; 
+  color: #333; 
+  margin-bottom: 20px; 
+  line-height: 1; /* Qatorlar orasidagi balandlik */
+}
+.section-listes-text {
+  display: block;
+  margin-bottom: 20px !important;
+}
+
+
+.section-listes-text + br {
+  display: none; /* Agar `br` ortidan foydalansangiz, kerak bo'lsa yo'q qilishingiz mumkin */
+}
+
+.images-kokmin{
+  display: block;
+  margin-top: 20px !important;
+}
+.section-listes-textes {
+  display: block;
+  width: 85% !important;
+}
+.section-listes-textes {
+  font-size: 16px; 
+  font-weight: bold;
+  line-height: 2; 
+  color: #333; 
+}
+.section-navbar-title{
+  width: 30% !important;
+  font-size: 14px; 
+  font-weight: bold; 
+  color: #0055ff; 
+}
